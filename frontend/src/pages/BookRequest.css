@@ -1,0 +1,68 @@
+.bookrequest-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .bookrequest-header {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+  .bookrequest-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .bookrequest-button {
+    width: 20%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Adjust this value as needed */
+  }
+
+  .bookrequest-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .bookrequest-footer {
+    text-align: center;
+  }
+  
+  .bookrequest-footer-text {
+    font-size: 14px;
+  }
+  
+  .bookrequest-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .bookrequest-link:hover {
+    text-decoration: underline;
+  }

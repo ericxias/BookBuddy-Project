@@ -1,0 +1,20 @@
+Steps of how back-end was setup.
+
+get Flask
+get environment: pip install virtualenv
+python -m virtualenv back-end
+
+--each time you open terminal--
+.\<ur virtual env>\Scripts\activate
+
+--to add any new files--
+setx FLASK_APP "app.py"
+
+
+--to run flask--
+flask run
+
+
+
+
+DONE

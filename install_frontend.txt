@@ -1,0 +1,8 @@
+follow this for frontend:
+
+need npm install react-router-dom for routes
+
+Switch only work under ver 6 for react-router-dom 
+
+https://www.youtube.com/watch?v=z0vaVoxMoSA
+v6.22

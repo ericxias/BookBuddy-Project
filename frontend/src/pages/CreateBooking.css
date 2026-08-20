@@ -1,0 +1,88 @@
+.create-booking-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .create-booking-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-booking-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-left: 25%;
+  }
+  
+  .form-label {
+    display: block;
+    
+  }
+
+  .form-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-booking-button {
+    width: 30%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;;
+
+  }
+
+  .create-booking-dropdown {
+    width: 80%;
+    padding: 10px;
+    margin-bottom:20px;
+    background-color: #3a7ca5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    position: center;
+    cursor: pointer;
+  }
+  
+  .create-booking-dropdown:hover {
+    background-color: #0056b3;
+  }
+
+  
+  .create-booking-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .create-booking-footer {
+    text-align: center;
+  }
+
+  .create-booking-footer-text {
+    font-size: 14px;
+  }
+  
+  .back-to-home-screen {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .back-to-home-screen:hover {
+    text-decoration: underline;
+  }
+  

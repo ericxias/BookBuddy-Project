@@ -1,0 +1,8 @@
+I had to install:
+pip install firebase-admin
+
+make sure that you have keys.json in the backend folder (we have a keys.json in the /backend/src/ folder too!)
+
+working steps definition:
+run this in backend directory
+behave -i ID008_BookListingCreation.feature

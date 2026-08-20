@@ -1,0 +1,128 @@
+
+.App {
+  text-align: center;
+  width: 100%; /* Ensure the .App class takes up the full width of the screen */
+  max-width: none; /* Override any maximum width set */
+  
+}
+
+/* Logo styles */
+.App-logo {
+  height: 6vmin; /* Reduced the size for better visual balance */
+  pointer-events: none;
+}
+
+/* Animation for the logo spin */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear; /* Decreased the animation duration for faster spin */
+  }
+}
+/* Navigation Bar styles */
+.navbar {
+  background-color: #333; 
+  overflow: hidden;
+  width: 100%; /* Navbar takes up the full width of the screen */
+
+}
+
+@media screen and (min-width: 601px) {
+  .navbar {
+    width: 100%; /* Navbar takes up 80% of the screen width on larger screens */
+    margin: 0 auto; /* Center the navbar */
+    
+  }
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: right; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none;
+}
+
+/* Header styles 282c34*/
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin); /* Increased font size slightly */
+  color: white;
+}
+
+.App-body{
+  min-height: 50vh;
+  align-items: center;
+  font-size: calc(6px + 2vmin); /* Increased font size slightly */
+
+}
+/* h1 styles */
+.App-header h1 {
+  font-size: 2em; /* Example: Increase font size for h1 */
+  margin-bottom: 12px; /* Example: Add margin to bottom for spacing */
+}
+/* Link styles */
+.App-link {
+  color: #61dafb;
+}
+
+
+.normalButton {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.normalButton:hover {
+  background-color: #ddd; 
+  color: rgb(3, 47, 21);
+}
+.specialButton {
+  color: white;
+  background-color: rgb(253, 16, 16); /* Red background color */
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.specialButton:hover {
+  background-color:  rgb(249, 249, 249); /* Darker red color on hover */
+  color: rgb(255, 12, 12); /* Darker red color on hover */
+
+}
+/* Button styles */
+.button {
+  color: rgb(11, 0, 0);
+  background-color: rgb(2, 250, 84); 
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+
+.button:hover {
+  background-color: rgb(249, 249, 249); /* Darker red color on hover */
+  color: rgb(2, 255, 2);
+
+}
+
+/* Keyframes for the logo spin animation */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
