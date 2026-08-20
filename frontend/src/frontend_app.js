@@ -8,7 +8,7 @@ import { getAuth, signOut, updateEmail, updatePassword, sendPasswordResetEmail }
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBBQ6E0wGV9XuYH9rRhsgKFc5iDoYouQtM",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY || "",
   authDomain: "ecse428-69588.firebaseapp.com",
   projectId: "ecse428-69588",
   storageBucket: "ecse428-69588.appspot.com",

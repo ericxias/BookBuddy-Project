@@ -3,8 +3,9 @@ from flask import Flask, request, jsonify, session
 from flask_cors import CORS, cross_origin
 import requests
 import firebase_admin
+import os
 from firebase_admin import auth
-web_api_key = "AIzaSyBBQ6E0wGV9XuYH9rRhsgKFc5iDoYouQtM"
+web_api_key = os.getenv("FIREBASE_WEB_API_KEY", "")
 
 
 # pip install firebase-admin pyjwt

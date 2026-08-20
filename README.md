@@ -26,6 +26,13 @@ You may use `pip install flask`, `pip install flask_cors`, `pip install firebase
 ### Keys
 Be sure to add the keys.json in backend/src
 
+Set Firebase API key through environment variables (do not hardcode it in source files):
+
+- Frontend: create `frontend/.env.local` with `REACT_APP_FIREBASE_API_KEY=...`
+- Backend: set `FIREBASE_WEB_API_KEY=...` in your shell before running Flask/tests
+
+Example templates are provided in `frontend/.env.example` and `backend/src/.env.example`.
+
 For some users you may have to put full path to keys.json in book_functions.py
 
 For example at `cred = credentials.Certificate("keys.json")` instead of `"keys.json"` it could be `/Users/MyName/Folder1/ECSE428_BOOK/backend/src/keys.json`

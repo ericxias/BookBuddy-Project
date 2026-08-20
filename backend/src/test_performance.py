@@ -3,13 +3,16 @@ import firebase_admin
 from firebase_admin import credentials, firestore, auth
 import pytest
 import time
+import os
 
 book_functions = Book_functions()
 
 class TestPerformance:
     # Lucas ID024
     def test_ten_concurent(self):
-        web_api_key = "AIzaSyBBQ6E0wGV9XuYH9rRhsgKFc5iDoYouQtM"
+        web_api_key = os.getenv("FIREBASE_WEB_API_KEY")
+        if not web_api_key:
+            pytest.skip("Set FIREBASE_WEB_API_KEY to run this test")
 
         # Create 10 Users
         user1 = print(book_functions.create_account("TUC1@mail.com", "ECSE428", "true", web_api_key))
